@@ -1,0 +1,158 @@
+{
+  "meta": {
+    "company_name": "Fictional CMS Co.",
+    "product_name": "FictionalCMS Cloud",
+    "research_date": "2026-09-20",
+    "claim_origin": "user",
+    "names_note": "Product was called FictionalCMS Hosting until a 2025 rebrand. Older reviews use that name.",
+    "fixture": true
+  },
+  "stage": {
+    "claim": {
+      "statement": "Teams migrate an existing site to FictionalCMS Cloud in two weeks or less.",
+      "company_says": [
+        "Homepage banner promises a live site in 14 days.",
+        "Migration service page describes a guided two-week program with a dedicated engineer."
+      ],
+      "sources": [
+        { "label": "Homepage", "source": "https://example.com/fictionalcms", "date": "2026-09-01" },
+        { "label": "Migration services", "source": "https://example.com/fictionalcms/migrate", "date": "2026-06-10" }
+      ]
+    },
+    "icp": {
+      "summary": "Marketing teams at mid-market companies running high-traffic content sites.",
+      "details": [
+        "Companies with 200 to 2,000 employees",
+        "Buyer: marketing leader; user: web and content teams",
+        "Media, higher education, and B2B SaaS case studies"
+      ],
+      "sources": [
+        { "label": "Customer stories", "source": "https://example.com/fictionalcms/customers", "date": "2026-08-01" }
+      ]
+    },
+    "core_messaging": {
+      "promise": "Ship content faster without waiting on developers.",
+      "supporting_lines": [
+        "Visual editing for marketers",
+        "Enterprise-grade uptime"
+      ],
+      "tone_voice": "Confident and aspirational, written for marketers rather than engineers. Leans on speed metaphors and avoids technical detail until the docs.",
+      "sources": [
+        { "label": "Platform page", "source": "https://example.com/fictionalcms/platform", "date": "2026-07-15" }
+      ]
+    },
+    "differentiators": [
+      { "id": "D1", "statement": "Only CMS host with edge-native rendering", "source": "https://example.com/fictionalcms/platform", "date": "2026-07-15" },
+      { "id": "D2", "statement": "99.99% uptime SLA on every plan", "source": "https://example.com/fictionalcms/pricing", "date": "2026-09-01" },
+      { "id": "D3", "statement": "Built-in A/B testing", "source": "https://example.com/fictionalcms/features", "date": "2026-05-02" }
+    ]
+  },
+  "tests": [
+    {
+      "id": "T1",
+      "kind": "claim",
+      "subject": "Teams migrate an existing site in two weeks or less.",
+      "standard": {
+        "validated": "Three or more independent ICP-matched accounts report migrations completed in about two weeks.",
+        "plausible_unconfirmed": "Mixed or sparse accounts that meet neither bar.",
+        "invalidated": "Three or more independent accounts report typical migrations well past two weeks, or company docs describe a longer standard timeline."
+      },
+      "verdict": "invalidated",
+      "bottom_line": "Mid-market teams report 6 to 12 week migrations, and the company's own onboarding guide plans for 8.",
+      "reasoning": "The onboarding guide schedules an eight-week migration, contradicting the homepage. Three independent reviews report 6 to 12 weeks. The one two-week account came from a single-page site outside the ICP.",
+      "evidence": [
+        { "finding": "Onboarding guide lays out an eight-week standard migration plan.", "direction": "invalidates", "source_type": "company", "source": "https://example.com/fictionalcms/docs/onboarding", "date": "2026-04-18" },
+        { "finding": "Mid-market media company reports a ten-week migration with two re-platforming delays.", "direction": "invalidates", "source_type": "independent", "source": "https://example.com/g2/fictionalcms-review-1", "date": "2026-07-02" },
+        { "finding": "B2B SaaS web lead says migration took about three months.", "direction": "invalidates", "source_type": "independent", "source": "https://example.com/reddit/thread-migration", "date": "2026-03-11" },
+        { "finding": "University web team reports six weeks, calling the timeline 'optimistic'.", "direction": "invalidates", "source_type": "independent", "source": "https://example.com/trustradius/review-2", "date": "2026-01-20" },
+        { "finding": "Small agency moved a single-page site in under two weeks.", "direction": "validates", "source_type": "independent", "source": "https://example.com/capterra/review-3", "date": "2026-05-30", "notes": "Outside the ICP. Logged, not weighted." }
+      ]
+    },
+    {
+      "id": "T2",
+      "kind": "icp_experience",
+      "subject": "Will mid-market marketing teams enjoy using FictionalCMS Cloud?",
+      "standard": {
+        "validated": "Happy is the dominant pattern among ICP-matched customers.",
+        "plausible_unconfirmed": "Content is dominant, or no clear pattern.",
+        "invalidated": "Frustrated plus Angry outnumber Happy plus Content."
+      },
+      "verdict": "plausible unconfirmed",
+      "bottom_line": "Content is the dominant pattern: teams get the outcome but find the editor slow and developer-dependent.",
+      "reasoning": "Four of seven ICP-matched accounts are Content. They report faster sites but still route layout changes through developers, which undercuts the core promise.",
+      "evidence": [
+        { "finding": "Marketing manager: site speed improved, but every new page template needs a developer ticket.", "direction": "invalidates", "source_type": "independent", "sentiment": "content", "source": "https://example.com/g2/fictionalcms-review-4", "date": "2026-08-14" },
+        { "finding": "Content lead: traffic handling is excellent, editor is clunky.", "direction": "invalidates", "source_type": "independent", "sentiment": "content", "source": "https://example.com/g2/fictionalcms-review-5", "date": "2026-07-21" },
+        { "finding": "Web director: fast, stable, easy for the team. Would buy again.", "direction": "validates", "source_type": "independent", "sentiment": "happy", "source": "https://example.com/trustradius/review-6", "date": "2026-06-03" },
+        { "finding": "Digital marketing lead: reliable hosting, visual editor limited to preset blocks.", "direction": "invalidates", "source_type": "independent", "sentiment": "content", "source": "https://example.com/capterra/review-7", "date": "2026-05-12" },
+        { "finding": "Marketing ops: likes the dashboard, but campaign pages still ship late.", "direction": "invalidates", "source_type": "independent", "sentiment": "frustrated", "source": "https://example.com/reddit/thread-editor", "date": "2026-04-09" },
+        { "finding": "Content strategist: dependable and fast once set up.", "direction": "validates", "source_type": "independent", "sentiment": "happy", "source": "https://example.com/g2/fictionalcms-review-8", "date": "2026-02-27" },
+        { "finding": "Web team lead: uptime is great, publishing workflow is painful.", "direction": "invalidates", "source_type": "independent", "sentiment": "content", "source": "https://example.com/g2/fictionalcms-review-9", "date": "2025-11-02" }
+      ]
+    },
+    {
+      "id": "T3",
+      "kind": "core_messaging",
+      "subject": "Ship content faster without waiting on developers.",
+      "standard": {
+        "validated": "Three or more independent ICP accounts report publishing new pages and layouts without developer help.",
+        "plausible_unconfirmed": "Accounts confirm faster publishing for text edits only, or evidence is mixed.",
+        "invalidated": "Three or more independent ICP accounts report developer dependency for routine page creation, or docs require developers for it."
+      },
+      "verdict": "invalidated",
+      "bottom_line": "Text edits are self-serve, but new pages and layouts still need developers.",
+      "reasoning": "Docs state new templates require a developer role. Three independent reviews describe developer tickets for routine campaign pages.",
+      "evidence": [
+        { "finding": "Docs: creating page templates requires the Developer role.", "direction": "invalidates", "source_type": "company", "source": "https://example.com/fictionalcms/docs/templates", "date": "2026-06-22" },
+        { "finding": "Reviewer: every new template is a developer ticket.", "direction": "invalidates", "source_type": "independent", "source": "https://example.com/g2/fictionalcms-review-4", "date": "2026-08-14" },
+        { "finding": "Reviewer: campaign pages still ship late because of dev queue.", "direction": "invalidates", "source_type": "independent", "source": "https://example.com/reddit/thread-editor", "date": "2026-04-09" },
+        { "finding": "Reviewer: visual editor limited to preset blocks.", "direction": "invalidates", "source_type": "independent", "source": "https://example.com/capterra/review-7", "date": "2026-05-12" },
+        { "finding": "Commissioned study reports 40% faster publishing.", "direction": "validates", "source_type": "vendor-funded", "source": "https://example.com/fictionalcms/tei-study", "date": "2025-03-01", "notes": "Paid for by Fictional CMS Co. Counts as a company claim." }
+      ]
+    },
+    {
+      "id": "T4",
+      "kind": "differentiator",
+      "differentiator_id": "D1",
+      "subject": "Only CMS host with edge-native rendering",
+      "standard": {
+        "validated": "Capability confirmed independently and no named competitor documents an equivalent.",
+        "plausible_unconfirmed": "Capability confirmed but uniqueness can't be established either way.",
+        "invalidated": "One or more competitors publicly document an equivalent capability."
+      },
+      "verdict": "invalidated",
+      "bottom_line": "The capability is real, but two competitors document the same architecture.",
+      "reasoning": "The locked standard sets one documented competitor equivalent as sufficient. Two competitor docs describe edge rendering for CMS-hosted sites.",
+      "evidence": [
+        { "finding": "Independent benchmark confirms edge rendering on FictionalCMS Cloud.", "direction": "context", "source_type": "independent", "source": "https://example.com/benchmarks/edge-2026", "date": "2026-06-30" },
+        { "finding": "Competitor A docs describe edge rendering for hosted CMS sites.", "direction": "invalidates", "source_type": "independent", "source": "https://example.com/competitor-a/docs/edge", "date": "2026-05-15" },
+        { "finding": "Competitor B launch post announces edge-native rendering.", "direction": "invalidates", "source_type": "independent", "source": "https://example.com/competitor-b/blog/edge", "date": "2025-08-04" },
+        { "finding": "2023 trade press profile calls FictionalCMS the first edge-native host.", "direction": "validates", "source_type": "independent", "source": "https://example.com/tradepress/2023-profile", "date": "2023-10-10", "notes": "First is not only. Predates both competitor launches." }
+      ]
+    },
+    {
+      "id": "T5",
+      "kind": "differentiator",
+      "differentiator_id": "D2",
+      "subject": "99.99% uptime SLA on every plan",
+      "standard": {
+        "validated": "Published SLA terms cover every plan at 99.99% and the public status history is consistent with it.",
+        "plausible_unconfirmed": "SLA terms confirm the number but status history is incomplete.",
+        "invalidated": "SLA terms exclude some plans, or status history shows sustained misses."
+      },
+      "verdict": "validated",
+      "bottom_line": "SLA terms cover every plan, and twelve months of status history supports it.",
+      "reasoning": "The standard rests on published SLA terms plus status history, so two independent confirmations of the history meet it. No plan exclusions found.",
+      "evidence": [
+        { "finding": "SLA document lists 99.99% for all plans with service credits.", "direction": "validates", "source_type": "company", "source": "https://example.com/fictionalcms/legal/sla", "date": "2026-02-01" },
+        { "finding": "Third-party uptime monitor shows 99.991% over twelve months.", "direction": "validates", "source_type": "independent", "source": "https://example.com/uptime-monitor/fictionalcms", "date": "2026-09-15" },
+        { "finding": "Status page history shows two incidents under one hour each in the past year.", "direction": "validates", "source_type": "independent", "source": "https://example.com/status/fictionalcms/history", "date": "2026-09-15" },
+        { "finding": "Forum thread reports a four-hour outage in 2024.", "direction": "invalidates", "source_type": "independent", "source": "https://example.com/forum/outage-2024", "date": "2024-06-02" }
+      ]
+    }
+  ],
+  "open_questions": [
+    "Is the two-week migration claim tied to the paid migration service tier only? The homepage doesn't say.",
+    "D3 (built-in A/B testing) was not tested. Two reviews mention it requires a separate add-on."
+  ]
+}
